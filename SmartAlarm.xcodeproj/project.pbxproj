@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5763659419587FFB007A873E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659319587FFB007A873E /* Foundation.framework */; };
+		5763659619587FFB007A873E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659519587FFB007A873E /* CoreGraphics.framework */; };
+		5763659819587FFB007A873E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659719587FFB007A873E /* UIKit.framework */; };
+		5763659E19587FFB007A873E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5763659C19587FFB007A873E /* InfoPlist.strings */; };
+		576365A019587FFB007A873E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5763659F19587FFB007A873E /* main.m */; };
+		576365A419587FFB007A873E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365A319587FFB007A873E /* AppDelegate.m */; };
+		576365A619587FFB007A873E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 576365A519587FFB007A873E /* Images.xcassets */; };
+		576365AD19587FFB007A873E /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 576365AC19587FFB007A873E /* XCTest.framework */; };
+		576365AE19587FFB007A873E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659319587FFB007A873E /* Foundation.framework */; };
+		576365AF19587FFB007A873E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659719587FFB007A873E /* UIKit.framework */; };
+		576365B719587FFB007A873E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 576365B519587FFB007A873E /* InfoPlist.strings */; };
+		576365B919587FFB007A873E /* SmartAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365B819587FFB007A873E /* SmartAlarmTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		576365B019587FFB007A873E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5763658819587FFB007A873E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5763658F19587FFB007A873E;
+			remoteInfo = SmartAlarm;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5763659019587FFB007A873E /* SmartAlarm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartAlarm.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5763659319587FFB007A873E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5763659519587FFB007A873E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5763659719587FFB007A873E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5763659B19587FFB007A873E /* SmartAlarm-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartAlarm-Info.plist"; sourceTree = "<group>"; };
+		5763659D19587FFB007A873E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5763659F19587FFB007A873E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		576365A119587FFB007A873E /* SmartAlarm-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SmartAlarm-Prefix.pch"; sourceTree = "<group>"; };
+		576365A219587FFB007A873E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		576365A319587FFB007A873E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		576365A519587FFB007A873E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		576365AB19587FFB007A873E /* SmartAlarmTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartAlarmTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		576365AC19587FFB007A873E /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		576365B419587FFB007A873E /* SmartAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartAlarmTests-Info.plist"; sourceTree = "<group>"; };
+		576365B619587FFB007A873E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		576365B819587FFB007A873E /* SmartAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartAlarmTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5763658D19587FFB007A873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5763659619587FFB007A873E /* CoreGraphics.framework in Frameworks */,
+				5763659819587FFB007A873E /* UIKit.framework in Frameworks */,
+				5763659419587FFB007A873E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576365A819587FFB007A873E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576365AD19587FFB007A873E /* XCTest.framework in Frameworks */,
+				576365AF19587FFB007A873E /* UIKit.framework in Frameworks */,
+				576365AE19587FFB007A873E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5763658719587FFB007A873E = {
+			isa = PBXGroup;
+			children = (
+				5763659919587FFB007A873E /* SmartAlarm */,
+				576365B219587FFB007A873E /* SmartAlarmTests */,
+				5763659219587FFB007A873E /* Frameworks */,
+				5763659119587FFB007A873E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5763659119587FFB007A873E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5763659019587FFB007A873E /* SmartAlarm.app */,
+				576365AB19587FFB007A873E /* SmartAlarmTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5763659219587FFB007A873E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5763659319587FFB007A873E /* Foundation.framework */,
+				5763659519587FFB007A873E /* CoreGraphics.framework */,
+				5763659719587FFB007A873E /* UIKit.framework */,
+				576365AC19587FFB007A873E /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5763659919587FFB007A873E /* SmartAlarm */ = {
+			isa = PBXGroup;
+			children = (
+				576365A219587FFB007A873E /* AppDelegate.h */,
+				576365A319587FFB007A873E /* AppDelegate.m */,
+				576365A519587FFB007A873E /* Images.xcassets */,
+				5763659A19587FFB007A873E /* Supporting Files */,
+			);
+			path = SmartAlarm;
+			sourceTree = "<group>";
+		};
+		5763659A19587FFB007A873E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5763659B19587FFB007A873E /* SmartAlarm-Info.plist */,
+				5763659C19587FFB007A873E /* InfoPlist.strings */,
+				5763659F19587FFB007A873E /* main.m */,
+				576365A119587FFB007A873E /* SmartAlarm-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576365B219587FFB007A873E /* SmartAlarmTests */ = {
+			isa = PBXGroup;
+			children = (
+				576365B819587FFB007A873E /* SmartAlarmTests.m */,
+				576365B319587FFB007A873E /* Supporting Files */,
+			);
+			path = SmartAlarmTests;
+			sourceTree = "<group>";
+		};
+		576365B319587FFB007A873E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				576365B419587FFB007A873E /* SmartAlarmTests-Info.plist */,
+				576365B519587FFB007A873E /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5763658F19587FFB007A873E /* SmartAlarm */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576365BC19587FFB007A873E /* Build configuration list for PBXNativeTarget "SmartAlarm" */;
+			buildPhases = (
+				5763658C19587FFB007A873E /* Sources */,
+				5763658D19587FFB007A873E /* Frameworks */,
+				5763658E19587FFB007A873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartAlarm;
+			productName = SmartAlarm;
+			productReference = 5763659019587FFB007A873E /* SmartAlarm.app */;
+			productType = "com.apple.product-type.application";
+		};
+		576365AA19587FFB007A873E /* SmartAlarmTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 576365BF19587FFB007A873E /* Build configuration list for PBXNativeTarget "SmartAlarmTests" */;
+			buildPhases = (
+				576365A719587FFB007A873E /* Sources */,
+				576365A819587FFB007A873E /* Frameworks */,
+				576365A919587FFB007A873E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				576365B119587FFB007A873E /* PBXTargetDependency */,
+			);
+			name = SmartAlarmTests;
+			productName = SmartAlarmTests;
+			productReference = 576365AB19587FFB007A873E /* SmartAlarmTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5763658819587FFB007A873E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "양동길";
+				TargetAttributes = {
+					576365AA19587FFB007A873E = {
+						TestTargetID = 5763658F19587FFB007A873E;
+					};
+				};
+			};
+			buildConfigurationList = 5763658B19587FFB007A873E /* Build configuration list for PBXProject "SmartAlarm" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5763658719587FFB007A873E;
+			productRefGroup = 5763659119587FFB007A873E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5763658F19587FFB007A873E /* SmartAlarm */,
+				576365AA19587FFB007A873E /* SmartAlarmTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5763658E19587FFB007A873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5763659E19587FFB007A873E /* InfoPlist.strings in Resources */,
+				576365A619587FFB007A873E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576365A919587FFB007A873E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576365B719587FFB007A873E /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5763658C19587FFB007A873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576365A419587FFB007A873E /* AppDelegate.m in Sources */,
+				576365A019587FFB007A873E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		576365A719587FFB007A873E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576365B919587FFB007A873E /* SmartAlarmTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		576365B119587FFB007A873E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5763658F19587FFB007A873E /* SmartAlarm */;
+			targetProxy = 576365B019587FFB007A873E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5763659C19587FFB007A873E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5763659D19587FFB007A873E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		576365B519587FFB007A873E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				576365B619587FFB007A873E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		576365BA19587FFB007A873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		576365BB19587FFB007A873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		576365BD19587FFB007A873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SmartAlarm/SmartAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		576365BE19587FFB007A873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SmartAlarm/SmartAlarm-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		576365C019587FFB007A873E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartAlarm.app/SmartAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SmartAlarmTests/SmartAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		576365C119587FFB007A873E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SmartAlarm.app/SmartAlarm";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
+				INFOPLIST_FILE = "SmartAlarmTests/SmartAlarmTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5763658B19587FFB007A873E /* Build configuration list for PBXProject "SmartAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576365BA19587FFB007A873E /* Debug */,
+				576365BB19587FFB007A873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		576365BC19587FFB007A873E /* Build configuration list for PBXNativeTarget "SmartAlarm" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576365BD19587FFB007A873E /* Debug */,
+				576365BE19587FFB007A873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		576365BF19587FFB007A873E /* Build configuration list for PBXNativeTarget "SmartAlarmTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				576365C019587FFB007A873E /* Debug */,
+				576365C119587FFB007A873E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5763658819587FFB007A873E /* Project object */;
+}
