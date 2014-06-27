@@ -19,6 +19,16 @@
 		576365AF19587FFB007A873E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5763659719587FFB007A873E /* UIKit.framework */; };
 		576365B719587FFB007A873E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 576365B519587FFB007A873E /* InfoPlist.strings */; };
 		576365B919587FFB007A873E /* SmartAlarmTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365B819587FFB007A873E /* SmartAlarmTests.m */; };
+		576365C319588097007A873E /* MainWindows.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576365C219588097007A873E /* MainWindows.xib */; };
+		576365C619588A26007A873E /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365C519588A26007A873E /* RootViewController.m */; };
+		576365CF19595607007A873E /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365CD19595607007A873E /* MainViewController.m */; };
+		576365D019595607007A873E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576365CE19595607007A873E /* MainViewController.xib */; };
+		576365D419595664007A873E /* SetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365D219595664007A873E /* SetupViewController.m */; };
+		576365D519595664007A873E /* SetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 576365D319595664007A873E /* SetupViewController.xib */; };
+		576365D81959691A007A873E /* MainClockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 576365D71959691A007A873E /* MainClockView.m */; };
+		576365DA19598A75007A873E /* clock.png in Resources */ = {isa = PBXBuildFile; fileRef = 576365D919598A75007A873E /* clock.png */; };
+		57663952195DAADE003D4693 /* Hand.png in Resources */ = {isa = PBXBuildFile; fileRef = 57663950195DAADE003D4693 /* Hand.png */; };
+		57663953195DAADE003D4693 /* HandGrab.png in Resources */ = {isa = PBXBuildFile; fileRef = 57663951195DAADE003D4693 /* HandGrab.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +58,20 @@
 		576365B419587FFB007A873E /* SmartAlarmTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SmartAlarmTests-Info.plist"; sourceTree = "<group>"; };
 		576365B619587FFB007A873E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		576365B819587FFB007A873E /* SmartAlarmTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SmartAlarmTests.m; sourceTree = "<group>"; };
+		576365C219588097007A873E /* MainWindows.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainWindows.xib; sourceTree = "<group>"; };
+		576365C419588A26007A873E /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		576365C519588A26007A873E /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		576365CC19595607007A873E /* MainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		576365CD19595607007A873E /* MainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		576365CE19595607007A873E /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		576365D119595664007A873E /* SetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SetupViewController.h; sourceTree = "<group>"; };
+		576365D219595664007A873E /* SetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SetupViewController.m; sourceTree = "<group>"; };
+		576365D319595664007A873E /* SetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SetupViewController.xib; sourceTree = "<group>"; };
+		576365D61959691A007A873E /* MainClockView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainClockView.h; sourceTree = "<group>"; };
+		576365D71959691A007A873E /* MainClockView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainClockView.m; sourceTree = "<group>"; };
+		576365D919598A75007A873E /* clock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clock.png; sourceTree = "<group>"; };
+		57663950195DAADE003D4693 /* Hand.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Hand.png; sourceTree = "<group>"; };
+		57663951195DAADE003D4693 /* HandGrab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = HandGrab.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +101,7 @@
 		5763658719587FFB007A873E = {
 			isa = PBXGroup;
 			children = (
+				576365DB19598ABD007A873E /* Resource */,
 				5763659919587FFB007A873E /* SmartAlarm */,
 				576365B219587FFB007A873E /* SmartAlarmTests */,
 				5763659219587FFB007A873E /* Frameworks */,
@@ -109,6 +134,17 @@
 			children = (
 				576365A219587FFB007A873E /* AppDelegate.h */,
 				576365A319587FFB007A873E /* AppDelegate.m */,
+				576365C419588A26007A873E /* RootViewController.h */,
+				576365C519588A26007A873E /* RootViewController.m */,
+				576365C219588097007A873E /* MainWindows.xib */,
+				576365CC19595607007A873E /* MainViewController.h */,
+				576365CD19595607007A873E /* MainViewController.m */,
+				576365CE19595607007A873E /* MainViewController.xib */,
+				576365D119595664007A873E /* SetupViewController.h */,
+				576365D219595664007A873E /* SetupViewController.m */,
+				576365D319595664007A873E /* SetupViewController.xib */,
+				576365D61959691A007A873E /* MainClockView.h */,
+				576365D71959691A007A873E /* MainClockView.m */,
 				576365A519587FFB007A873E /* Images.xcassets */,
 				5763659A19587FFB007A873E /* Supporting Files */,
 			);
@@ -142,6 +178,17 @@
 				576365B519587FFB007A873E /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		576365DB19598ABD007A873E /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				57663950195DAADE003D4693 /* Hand.png */,
+				57663951195DAADE003D4693 /* HandGrab.png */,
+				576365D919598A75007A873E /* clock.png */,
+			);
+			name = Resource;
+			path = SmartAlarm;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,8 +266,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576365DA19598A75007A873E /* clock.png in Resources */,
+				57663952195DAADE003D4693 /* Hand.png in Resources */,
 				5763659E19587FFB007A873E /* InfoPlist.strings in Resources */,
+				576365D519595664007A873E /* SetupViewController.xib in Resources */,
+				576365C319588097007A873E /* MainWindows.xib in Resources */,
 				576365A619587FFB007A873E /* Images.xcassets in Resources */,
+				57663953195DAADE003D4693 /* HandGrab.png in Resources */,
+				576365D019595607007A873E /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,8 +292,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				576365D81959691A007A873E /* MainClockView.m in Sources */,
 				576365A419587FFB007A873E /* AppDelegate.m in Sources */,
 				576365A019587FFB007A873E /* main.m in Sources */,
+				576365C619588A26007A873E /* RootViewController.m in Sources */,
+				576365D419595664007A873E /* SetupViewController.m in Sources */,
+				576365CF19595607007A873E /* MainViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +414,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
 				INFOPLIST_FILE = "SmartAlarm/SmartAlarm-Info.plist";
@@ -370,6 +428,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "SmartAlarm/SmartAlarm-Prefix.pch";
 				INFOPLIST_FILE = "SmartAlarm/SmartAlarm-Info.plist";
@@ -437,6 +496,7 @@
 				576365BE19587FFB007A873E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		576365BF19587FFB007A873E /* Build configuration list for PBXNativeTarget "SmartAlarmTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +505,7 @@
 				576365C119587FFB007A873E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
